@@ -94,10 +94,11 @@ z-index: 1000;}
   .menu li a{display: block; padding-top: 25px; padding-bottom: 25px; text-decoration: none; color: black;}
   .menu li a:hover{color: #EF3F3F; mix-blend-mode: darken;}
 
-  .doip { background-image: url(../img/Comp 1.webp);
+  .doip { background-image: url(../img/chessmin.gif);
 background-size: cover;
   background-position: center;
   padding: 450px;
+         mix-blend-mode: darken;
  }
 
  .doiptx {font-size: 30px; width: 800px; padding-top: 1900px; line-height: 150%}
