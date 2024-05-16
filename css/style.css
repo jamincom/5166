@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Zen+Dots&display=swap');
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+html,section{scroll-behavior: smooth;}
+body,html,section,body,h1,h2,h3,h4,h5,h6,h7,h8,h9,p,ul,nav{margin: 0; padding: 0;}
+body,html{background-color: #DBD5D4;}
+
+
+h1 {position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+            color: #EF3F3F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            word-break: keep-all;}
+
+h2 {font-size: 25px;}
+
+
+nav {
+  position: sticky;
+  top: 0;
+z-index: 1000;}
+
+::selection {
+            background-color: #6AC1CC; /* 배경색 설정 */
+            color: #fff; /* 텍스트 색상 설정 */
+        }
+
+        /* 웹킷 기반 브라우저 (Chrome, Safari)에서 선택한 텍스트의 스타일 */
+        ::-webkit-selection {
+            background-color: #6AC1CC;
+            color: #fff;
+        }
+
+
+.padb150 {padding-bottom: 150px;}
+
+
+.px200 {font-size: 200px; padding-bottom: 70px}
+
+.spB {font-family: 'SpoqaHanSans-kr'; font-weight: bold;}
+.spL {font-family: 'Spoqa Han Sans Neo', 'sans-serif'; font-weight: 100;}
+
+.zen {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 100;
+  font-style: normal;}
+.hub {
+  font-family: "Hubballi", sans-serif;
+  font-style: normal;
+}
+
+.wrap {
+  margin: auto;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 0;}
+
+.red {color: #EF3F3F; mix-blend-mode: darken;}
+.padt50 {padding-top: 50px;}
+
+.padt250 {padding-top: 250px;}
+
+.dark img {
+            display: block;
+            mix-blend-mode: darken; /* 어둡게 하기 효과 적용 */
+            transform: scale(1.1);
+        }
+
+.darktx {display: block; mix-blend-mode: darken; /* 어둡게 하기 효과 적용 */}
+
+.flex {display: flex;  gap: 0; align-items: flex-end; justify-content: center;}
+.navflex {display: flex;  gap: 0; align-items: center;  justify-content: space-between;}
+.naflex {display: flex;  gap: 0; align-items: center;}
+
+
+
+.menu{font-size: 25px;}
+  .menu li{list-style-type: none;}
+  .menu li a{display: block; padding-top: 25px; padding-bottom: 25px; text-decoration: none; color: black;}
+  .menu li a:hover{color: #EF3F3F; mix-blend-mode: darken;}
+
+  .doip { background-image: url(../img/chess.gif);
+background-size: cover;
+  background-position: center;
+  padding: 450px;
+ }
+
+ .doiptx {font-size: 30px; width: 800px; padding-top: 1900px; line-height: 150%}
+
